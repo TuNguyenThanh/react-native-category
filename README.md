@@ -1,5 +1,9 @@
+[![npm version](https://badge.fury.io/js/react-native-category.svg)](https://badge.fury.io/js/react-native-category)
+
+[![NPM](https://nodei.co/npm/react-native-category.png?downloads=true)](https://nodei.co/npm/react-native-category/)
 # react-native-category
-- Support Android and iOS.
+- A React Native component for generating and displaying interactive category list. 
+- Compatible with both Android and iOS.
 
 ## Installation
 
@@ -45,6 +49,36 @@ _itemChoose(item) {
   itemText={'title'}  //set attribule of object show in item category
 />
 ```
+
+### Props
+#### Category type Text Item
+| Prop | Type | Description | Required | Default |
+|---|---|---|---|---|
+|**`data`**|`array`|Data category |`Yes`|`[]`|
+|**`itemText`**|`string`|Attribule show in item category |`Yes`|`''`|
+|**`itemSelected`**|`function`|A function to handle item category presses. |`Yes`|`None`|
+|**`textType`**|`string`|Set type for text (upper, lower, capitalize) |`No`|`None`|
+|**`indexSelected`**|`number`|Set item category selected default |`No`|`0`|
+
+#### Category type Image Item
+| Prop | Type | Description | Required | Default |
+|---|---|---|---|---|
+|**`imageData`**|`array`|Image data category |`No`|`[]`|
+|**`iconSet`**|`string`|The name of the icon set item category image belongs to. Refer to [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons). |`No`|`FontAwesome`|
+|**`iconSize`**|`number`|Set size icon item category |`No`|`30`|
+
+#### Category props style
+| Prop | Type | Description | Required | Default |
+|---|---|---|---|---|
+|**`style`**|`style`|Custom style for category |`No`|`None`|
+|**`itemStyles`**|`style`|Custom style for item category |`No`|`None`|
+|**`colorTextDefault`**|`string`|Set Color text default |`No`|`#f5f3f4`|
+|**`colorTextSelected`**|`string`|Set Color text selected |`No`|`#000000`|
+|**`colorItemDefault`**|`string`|Set Color item default |`No`|`rgba(255,255,255,0.2)`|
+|**`colorItemSelected`**|`string`|Set Color item selected |`No`|`#FF4E50`|
+|**`colorIconDefault`**|`string`|Set Color icon default |`No`|`#900`|
+|**`colorIconSelected`**|`string`|Set Color icon selected |`No`|`#FFF`|
+|**`bounces`**|`bool`|Bounces iOS |`No`|`false`|
 
 ## License
 
