@@ -7,7 +7,7 @@
 
 - [Detailed Example](https://github.com/TuNguyenThanh/react-native-category/tree/master/Example)
 <p align="center">
-  <img src="https://github.com/TuNguyenThanh/react-native-category/blob/master/screenshot.gif" alt="Category Example" width="336" height="600"/>
+  <img src="https://raw.githubusercontent.com/TuNguyenThanh/react-native-category/master/screenshot.gif" alt="Category Example" width="336" height="600"/>
 </p>
 
 ## Installation
