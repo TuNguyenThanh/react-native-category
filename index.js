@@ -32,7 +32,7 @@ export const typeText = {
 
 class Category extends Component {
   static propTypes = {
-    data: PropTypes.array,        //data category default
+    data: PropTypes.array.isRequired,        //data category default
     itemText: PropTypes.string.isRequired,   //attribule text show in item -> ex: title
     itemSelected: PropTypes.func.isRequired, //func when click item
 
@@ -42,7 +42,7 @@ class Category extends Component {
     colorTextSelected: PropTypes.string,     //Color text selected
     colorItemDefault: PropTypes.string,      //Color view default
     colorItemSelected: PropTypes.string,     //Color view selected
-    colorIconDefault: PropTypes.string,      //Color icon selected
+    colorIconDefault: PropTypes.string,      //Color icon default
     colorIconSelected: PropTypes.string,     //Color icon selected
     bounces: PropTypes.bool,                 //Bounces iOS
     indexSelected: PropTypes.number,         //Set item category selected default
