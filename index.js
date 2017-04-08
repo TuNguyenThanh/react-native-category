@@ -57,9 +57,9 @@ class Category extends Component {
 		colorTextDefault: '#f5f3f4',
     colorTextSelected: '#000000',
     colorItemDefault: 'rgba(255,255,255,0.2)',
+    colorItemSelected: '#FF4E50',
     colorIconDefault: '#900',                   //Color icon selected
     colorIconSelected: '#FFF',                  //Color icon selected
-    colorItemSelected: '#FF4E50',
     bounces: false,
     indexSelected: 0,                           //Item selected default 0
     iconSet: 'FontAwesome',                     //Type icon default
