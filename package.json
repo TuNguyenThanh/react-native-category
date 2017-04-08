@@ -1,0 +1,26 @@
+{
+  "name": "react-native-category",
+  "version": "1.0.0",
+  "description": "react-native-category",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuNguyenThanh/react-native-category.git"
+  },
+  "keywords": [
+    "react native category",
+    "react native category list",
+    "react native list",
+    "react native item choose",
+    "react native flatlist"
+  ],
+  "author": "TuNguyenThanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuNguyenThanh/react-native-category/issues"
+  },
+  "homepage": "https://github.com/TuNguyenThanh/react-native-category#readme"
+}
