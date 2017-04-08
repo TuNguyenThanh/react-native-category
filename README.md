@@ -1,9 +1,14 @@
-[![npm version](https://badge.fury.io/js/react-native-category.svg)](https://badge.fury.io/js/react-native-category)
+# react-native-category  [![npm version](https://badge.fury.io/js/react-native-category.svg)](https://badge.fury.io/js/react-native-category)
 
 [![NPM](https://nodei.co/npm/react-native-category.png?downloads=true)](https://nodei.co/npm/react-native-category/)
-# react-native-category
+
 - A React Native component for generating and displaying interactive category list. 
 - Compatible with both Android and iOS.
+
+- [Detailed Example](https://github.com/TuNguyenThanh/react-native-category/tree/master/Example)
+<p align="center">
+  <img src="https://github.com/TuNguyenThanh/react-native-category/blob/master/screenshot.gif" alt="Category Example" width="336" height="600"/>
+</p>
 
 ## Installation
 
