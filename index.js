@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
 import styles from './CategoryStyles';
 
