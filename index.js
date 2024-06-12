@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
 import styles from './CategoryStyles';
 
@@ -185,7 +186,7 @@ class Category extends Component {
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
         bounces={this.props.bounces}
-        keyExtractor={(item, index) => index}
+        keyExtractor={(item, index) => index.toString()}
 
         renderItem={this.renderItemCategory.bind(this)}
         data={this.state.data}
